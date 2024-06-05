@@ -21,7 +21,7 @@ p, ul {
 
 .header {
   text-align: center;
-  background-image: url("../assets/myAvatar.svg");
+  background-image: url("./assets/myAvatar.svg");
   background-repeat: no-repeat;  /* Prevent image from tiling */
   background-position: left top;  /* Position image to top left */
   padding: 20px; /* Padding */
