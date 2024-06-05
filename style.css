@@ -1,0 +1,63 @@
+/* Basic styles */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+h1, h2, h3 {
+  margin: 1rem 0;
+}
+
+p, ul {
+  margin: 0.5rem 0;
+}
+
+/* Layout 
+.container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 2rem;
+}*/
+
+.header {
+  text-align: center;
+  background-image: url("../assets/myAvatar.svg");
+  background-repeat: no-repeat;  /* Prevent image from tiling */
+  background-position: left top;  /* Position image to top left */
+  padding: 20px; /* Padding */
+}
+
+.main-content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  flex-direction: column;
+}
+
+.section {
+  flex: 1 1 30%; /* Makes sections responsive, adjusting size on smaller screens */
+  padding: 1rem;
+  border-radius: 5px;
+}
+
+.footer{
+  text-align: center;
+  padding: 2rem;
+}
+
+.no-copy {
+  user-select: none;
+}
+#current-year{
+  color:#007bff;;
+}
+
+/* Optional styles */
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
